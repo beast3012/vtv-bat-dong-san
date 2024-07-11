@@ -1,0 +1,33 @@
+.header {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+  
+  .icon {
+    margin: 5px;
+    color: green;
+  }
+
+  .fab fa-facebook-f, .fas fa-search {
+    border-radius: 50%;
+  }
+  
