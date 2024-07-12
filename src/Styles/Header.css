@@ -25,9 +25,15 @@
   .icon {
     margin: 5px;
     color: green;
+    padding: 2px;
   }
 
-  .fab fa-facebook-f, .fas fa-search {
+  .icon.fab fa-facebook-f{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  button.facebook.button, button.search.button {
     border-radius: 50%;
   }
   
