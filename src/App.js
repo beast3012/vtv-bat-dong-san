@@ -1,13 +1,13 @@
-import React from 'react';
-import Header from './Componenets/Header';
+import * as React from 'react';
+import Header from './Components/Header';
+import Layout from './Components/Body';
 
-function App() {
+
+export default function App() {
   return (
     <div>
       <Header />
-      {/* Other components */}
+      <Layout />
     </div>
   );
 }
-
-export default App;
